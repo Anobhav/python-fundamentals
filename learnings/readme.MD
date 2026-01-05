@@ -27,3 +27,11 @@ Notes and Summary
     comparison operators ==,>,>=,<,<=,!=
     logical operators and, or , not 
     
+- strings in python? 
+    Immutable data type.all inputs by default are stored as string unless input is taken explicitly. Python supports string slicing with both positive and negative indexing. If we are counting from the front the index starts from 0. if we are counting from the back it starts from -1.
+    
+- List / arrays in python ?
+    Python does not have arrays like c++/java do. python has lists which are also used as arrays. they are mutable data type in which we can store different types of data together. They have support of indexing start from 0 to length and support slicing just like strings do. 
+ 
+- tuples ?
+    tuples are datatypes which are immutable and can store multiple different types of data together. It also supports indexing and by concatination we can join 2 tuples
