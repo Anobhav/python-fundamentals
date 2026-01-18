@@ -48,3 +48,9 @@ Topics covered
     conditions which decide which part of the code is to be executed and which part is not to be executed.
     Types = IF - ELSE , ELIF ladder 
     Loops = For, While 
+
+- Functions and recursions ?
+    Function call ->
+    Function definition -> 
+    Types of Functions -> built in, User defined 
+
