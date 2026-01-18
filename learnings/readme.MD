@@ -1,11 +1,13 @@
 This repository contains basics as well the as advance concepts of python followed by concept of OOPS, data structure with implementation. 
 
 Topics covered 
-1) input and output in python ( file name: in_out.py)
-2) Variables and data types ( file name: variables.py)
+1) input and output in python
+2) Variables and data types
+3) Conditional expressions 
+4) 
 
 
-Notes and Summary 
+======================================================= Notes and Summary =======================================================
 
 - How to install python libraries 
     Using keyword 'pip' + 'install' + 'name of the library' in the terminal
@@ -35,3 +37,14 @@ Notes and Summary
  
 - tuples ?
     tuples are datatypes which are immutable and can store multiple different types of data together. It also supports indexing and by concatination we can join 2 tuples
+
+- Dictionary
+    it is a set of key value pairs which is stored together, advantage of dictionary is that lookup is very fast. it is unordered, mutable, indexed and it cannot have duplicate keys.
+
+- Sets ?
+    collection of non repetitive elements. sets are unordered, unindexed and there is no way of changing the items in sets and cant have duplicate items in them. All elements inside a set are immutable and hashable.
+
+------------------------------------- Conditional expressions and LOOPS ------------------------------------------
+    conditions which decide which part of the code is to be executed and which part is not to be executed.
+    Types = IF - ELSE , ELIF ladder 
+    Loops = For, While 
