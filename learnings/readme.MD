@@ -54,3 +54,6 @@ Topics covered
     Function definition -> 
     Types of Functions -> built in, User defined 
 
+- File Manuplaton and operations?
+    Performing operations such as read-write or input-output on a file 
+    
