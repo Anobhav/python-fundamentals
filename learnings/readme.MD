@@ -96,3 +96,31 @@ Way of writting code by modeling it around real world objects instead of just us
         Allows creations of methods with same name but different functioning. 
     
 When a class is created a template is defined and then when object is created space in the memory is allocated 
+
+Types of Inheritance (IMPORTANT)
+1. Single Inheritance
+    Parent → Child
+
+2. Multiple Inheritance
+    Parent1 + Parent2 → Child
+
+3. Multilevel Inheritance
+    Grandparent → Parent → Child
+
+4. Hierarchical Inheritance
+       Parent
+      /      \
+   Child1   Child2
+
+5. Hybrid Inheritance
+
+    Combination of two or more inheritance types
+    Uses MRO internally
+
+--->>>  super()
+
+    Used to call parent class methods
+    Commonly used in constructors
+        super().__init__(args)
+
+Operator overloading -> programming feature where existing operators (like +, -, *, /) are given new meanings when applied to user-defined types (classes). This is done by defining special methods (like __add__, __sub__, __mul__) in the class, allowing operators to perform customized actions on those objects
