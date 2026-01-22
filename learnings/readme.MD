@@ -55,5 +55,20 @@ Topics covered
     Types of Functions -> built in, User defined 
 
 - File Manuplaton and operations?
-    Performing operations such as read-write or input-output on a file 
-    
+    Performing operations such as read-write or input-output on a file.
+    2 types of files -> text files and binary files 
+    functions = 
+        1) open(file_name, mode ) used to open a file by default in read mode 
+        Common file modes
+                Mode	Meaning
+                "r"	Read (default)
+                "w"	Write (creates or overwrites)
+                "a"	Append
+                "x"	Create new file
+                "rb"	read in Binary mode
+                "rt"	read in Text mode (default)
+                "+" open for updating 
+        2) file alias.read() used to read what is stored in the file
+        3) file alias.close() used to close the file important to release      the system resources 
+        4) file alias.write(string) used to write in the file 
+        5) 

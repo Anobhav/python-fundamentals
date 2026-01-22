@@ -1,0 +1,2 @@
+Write function helps us to write into the file and store it
+ this does not overwrite pre-existing text instead appends the new line after the pre-existing text
