@@ -44,7 +44,7 @@ Topics covered
 - Sets ?
     collection of non repetitive elements. sets are unordered, unindexed and there is no way of changing the items in sets and cant have duplicate items in them. All elements inside a set are immutable and hashable.
 
-------------------------------------- Conditional expressions and LOOPS ------------------------------------------
+- Conditional expressions and LOOPS 
     conditions which decide which part of the code is to be executed and which part is not to be executed.
     Types = IF - ELSE , ELIF ladder 
     Loops = For, While 
@@ -71,4 +71,28 @@ Topics covered
         2) file alias.read() used to read what is stored in the file
         3) file alias.close() used to close the file important to release      the system resources 
         4) file alias.write(string) used to write in the file 
-        5) 
+        Best way to perform operations on files is to 
+            {
+                open with ("filename","mode") as f:
+                    operations
+            }
+            because then you dont have to manually perform close operation  
+
+----- OBJECT ORIENTED PROGRAMMING ----
+Way of writting code by modeling it around real world objects instead of just using functions and logic 
+    Basic definations 
+        -> Classes -> blueprint/definition for creating objects 
+        -> Objects -> combination of data (what it has) and behavior (what it does)
+    
+    What does it improve for us?
+
+    Encapsulation
+        Bundling data and methods together to restrict access
+    Abstraction
+        Shows what the object does but hides how it does it 
+    Inheritance
+        allows one class (child class) to inherit properties from another class (parent class)
+    Polymorphism   
+        Allows creations of methods with same name but different functioning. 
+    
+When a class is created a template is defined and then when object is created space in the memory is allocated 
